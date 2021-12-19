@@ -11,6 +11,8 @@
 Phím tắt hỗ trợ:
 
 - Sắp xếp code: alt(giữ) + shift(giữ) + F(bấm)
+- comment code (ghi chú code): ctrl(giữ) + ?(bấm)
+-
 
 Phân tích cú pháp ngôn ngữ:
 
