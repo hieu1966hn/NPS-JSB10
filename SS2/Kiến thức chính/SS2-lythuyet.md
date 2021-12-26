@@ -3,6 +3,7 @@
 - Cài đặt tiện ích: live server: giúp người dùng code gì trong html sẽ hiển thị ngay lập tức trên web.
 
 - Cú pháp comment code: ctrl(giữ) + ?(bấm)
+- cú pháp sắp xếp code: alt(giữ) + shift(giữ) + f(bấm)
 
 * Live server chỉ dành cho file.html
 
@@ -25,3 +26,11 @@ CSS box model:
 - border: Đường viền bao quanh thẻ của mình
 - padding: khoảng cách từ đường viền (border) tới nội dung bên trong thẻ.
 - content: Nội dung bên trong thẻ.
+
+<!-- Danh sách trong html -->
+
+I. Hoàn cảnh ra đời
+
+1. Lịch sử thời đó
+2. Tác giả
+3. ....
