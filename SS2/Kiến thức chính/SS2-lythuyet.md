@@ -38,3 +38,10 @@ I. Hoàn cảnh ra đời
 <!-- Thẻ iframe -->
 
 - Thẻ iframe: thường được dùng để nhúng video hoặc là nhúng cả 1 trang web khác vào trang web của mình.
+
+<!-- Bảng biểu table -->
+
+- Thẻ table: thẻ bọc toàn bộ bảng của mình
+- th: Thêm Tiêu đề cột (in đậm )
+- tr: Thêm hàng trong bảng
+- td: Thêm cột trong bảng
