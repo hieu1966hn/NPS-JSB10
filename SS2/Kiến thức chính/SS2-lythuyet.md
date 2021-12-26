@@ -18,3 +18,10 @@ Các thẻ thường dùng với 3 thuộc tính trên là:
 - inline: span, a, i, b, strong, ,......
 - block: div, h1->h6, p, .....
 - inline-block: ...
+
+CSS box model:
+
+- margin: Khoảng cách từ đường viền (boder) ra bên ngoài thẻ.
+- border: Đường viền bao quanh thẻ của mình
+- padding: khoảng cách từ đường viền (border) tới nội dung bên trong thẻ.
+- content: Nội dung bên trong thẻ.
