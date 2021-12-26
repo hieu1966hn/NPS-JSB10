@@ -34,3 +34,7 @@ I. Hoàn cảnh ra đời
 1. Lịch sử thời đó
 2. Tác giả
 3. ....
+
+<!-- Thẻ iframe -->
+
+- Thẻ iframe: thường được dùng để nhúng video hoặc là nhúng cả 1 trang web khác vào trang web của mình.
