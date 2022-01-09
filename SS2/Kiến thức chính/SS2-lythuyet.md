@@ -42,6 +42,6 @@ I. Hoàn cảnh ra đời
 <!-- Bảng biểu table -->
 
 - Thẻ table: thẻ bọc toàn bộ bảng của mình
-- th: Thêm Tiêu đề cột (in đậm )
+- th: Thêm Tiêu đề cột (in đậm)
 - tr: Thêm hàng trong bảng
 - td: Thêm cột trong bảng
