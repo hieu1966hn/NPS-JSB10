@@ -23,6 +23,11 @@
     padding-bottom: 32px;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
 /* ************************* */
 
 
@@ -55,3 +60,15 @@
 /* Slides */
 
 /* About */
+
+
+/* Members */
+.third{
+    width: 33.33333%;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
