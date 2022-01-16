@@ -1,0 +1,27 @@
+/* Đã nhúng thành công */
+
+/* Ép kiểu trang web: Style mặc định cho toàn bộ thẻ trong html */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    /* không trang trí chữ */
+    outline: none;
+    border: none;
+}
+
+
+.nav{
+    color: white;
+    background-color: black;
+
+}
+
+.nav a{
+    color: white;
+    padding: 12px 16px;
+}
+/* style cho toan bộ the a nào là con hoặc cháu của thẻ có class là "nav" */
