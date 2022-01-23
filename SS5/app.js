@@ -15,3 +15,12 @@ Object: Thể hiện một đối tượng và các thuộc tính có thể truy
 // VD: null: null
 // VD: undefined: mới khởi tạo biến
 // VD: Đối tượng: tự định nghĩa.
+
+
+/*
+Toán tử số học trong JS: +,-,*,/, %(chia lấy dư)
+
+ */
+
+// VD: phép toán %
+// console.log(5 % 4);// kq?
