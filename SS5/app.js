@@ -124,9 +124,26 @@ B3: Nếu không còn else if => chạy vào else (trường hợp còn lại).
 Người tuyển sinh C3 cần tuyển sinh theo tiêu chí như sau:
 1. Điểm > 8 => bạn vào lớp chọn (diem >8)
 2. Điểm từ 6->8 => bạn vào lớp khá (diem >6 && diem <=8)
-3. Điểm từ 5->6 => bạn vào lớp thường (diem >5 && diem <=6)
+3. Điểm từ 5->6 => bạn vào lớp trung bình (diem >5 && diem <=6)
 4. Điểm <5 => bạn vào lớp yếu.
 
 Lưu ý: diem = 0->10;
 */
+
+let diem = 4.9;
+
+if (diem > 8) {
+  console.log("Bạn vào lớp chọn");
+}
+else if (diem > 6) {
+  console.log("Bạn vào lớp Khá");
+}
+else if (diem >= 5) {
+  console.log("Bạn vào lớp trung bình");
+}
+else {
+  console.log("Bạn vào lớp yếu");
+}
+
+
 
