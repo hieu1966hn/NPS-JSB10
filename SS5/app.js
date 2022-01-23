@@ -92,24 +92,34 @@ Lưu ý: "=" phép toán gán giá trị;
 
 
 /*
-Nếu thì (if - else) trong lập trình? 
+Nếu thì (if - else) trong lập trình?
 
 - Nếu điểm < 5 thì học sinh trung bình.
 - Nếu điểm == 7 thì học sinh đạt danh hiệu khá
 */
-let x = 7;
-if (x < 5) {
-  // Nếu điều kiện đúng thì chạy code ở đây
-  console.log("Bạn đạt học sinh trung bình");
-}
-else if (x == 7) {
-  // Điều kiện con
-  console.log("Bạn đạt học sinh khá");
-}
-else {
-  // Nếu điều kiện sai thì chạy code ở đây
-  console.log("Bạn không phải học sinh trung bình");
-}
+// let x = 7;
+// if (x < 5) {
+//   // Nếu điều kiện đúng thì chạy code ở đây
+//   console.log("Bạn đạt học sinh trung bình");
+// }
+// else if (x == 7) {
+//   // Điều kiện con
+//   console.log("Bạn đạt học sinh khá");
+// }
+// else {
+//   // Nếu điều kiện sai thì chạy code ở đây
+//   console.log("Bạn không phải học sinh trung bình");
+// }
+
+/*
+Vòng đời:
+B1: kiểm tra if. Nếu đk đúng thì chạy code bên trong. 
+B2: Kiểm tra else if. Nếu đk đúng thì chạy code bên trong.
+B3: Nếu không còn else if => chạy vào else (trường hợp còn lại).
+*/
 
 
 
+/*
+Người tuyển sinh 
+*/
