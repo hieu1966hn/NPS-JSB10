@@ -24,3 +24,21 @@ Toán tử số học trong JS: +,-,*,/, %(chia lấy dư)
 
 // VD: phép toán %
 // console.log(5 % 4);// kq?
+
+
+/*
+Toán tử so sánh: <,>,>=,<=,==, ===, !=, !==
+*/
+// VD về toán tử so sánh
+// console.log(1 < 2);
+// console.log(1 > 2);
+// console.log(1 >= 2); //  false 
+// console.log(1 <= 2); //  true
+// console.log(2 <= 2); //  true
+console.log(1 == 1); // true
+console.log(1 == "1"); // true: Vì so sánh tương đối, chỉ so sánh về giá trị
+console.log(1 === "1"); // false: Vì so sánh tuyệt đối, so sánh cả về giá trị và kiểu dữ liệu
+console.log(1 != 0);// true
+
+console.log(1 != "1");// false: Vì: nó giống nhau về giá trị.
+console.log(1 !== "1");// True:  Vì nó khác nhau về kiểu dữ liệu.
