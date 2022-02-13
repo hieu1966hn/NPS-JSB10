@@ -95,12 +95,27 @@ Với số nguyên tố là số chia hết cho 1 và chính nó. Bắt đầu t
 2. Nếu là số âm -> bắt người dùng nhập lại
 */
 
-let input;
-// Lưu ý: khởi tạo biến bên ngoài do.
-do {
-  input = Number(prompt("Mời người dùng nhập vào số nguyên dương"));
+// let input;
+// // Lưu ý: khởi tạo biến bên ngoài do.
+// do {
+//   input = Number(prompt("Mời người dùng nhập vào số nguyên dương"));
+// }
+// while (input < 0);
+// console.log(input)
+
+/////// Mảng
+//// khai báo mảng
+//C1:
+// let x = [19, 10, 8, 17, 9, 15];
+// console.log("x: ", x);
+// console.log(x[4]);//9
+
+
+//// Duyệt mảng với vòng lặp for
+let arr = [1, 2, 3];
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
 }
-while (input < 0);
-console.log(input)
+
 
 
