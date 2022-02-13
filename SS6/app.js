@@ -68,24 +68,39 @@ Với số nguyên tố là số chia hết cho 1 và chính nó. Bắt đầu t
 */
 
 // Hàm nhập dữ liệu từ trình duyệt: promt
-let number = Number(prompt("Mời người dùng nhập vào số nguyên dương bất kỳ"));//10
-// ép kiểu cho biến number về kiểu dữ liệu Number:
-// number = Number(number)
-console.log("number: ", number);
+// let number = Number(prompt("Mời người dùng nhập vào số nguyên dương bất kỳ"));//10
+// // ép kiểu cho biến number về kiểu dữ liệu Number:
+// // number = Number(number)
+// console.log("number: ", number);
 
 
-// vòng lặp tăng từ 2 -> number
-for (let i = 2; i <= number; i++) {
+// // vòng lặp tăng từ 2 -> number
+// for (let i = 2; i <= number; i++) {
 
 
-  // vòng lặp kiểm tra số nguyên tố
-  let dem = 0;
-  for (let j = 1; j <= i; j++) {
-    if (i % j == 0) { dem++ }
-  }
+//   // vòng lặp kiểm tra số nguyên tố
+//   let dem = 0;
+//   for (let j = 1; j <= i; j++) {
+//     if (i % j == 0) { dem++ }
+//   }
 
-  if (dem == 2) { console.log(i); }
+//   if (dem == 2) { console.log(i); }
+// }
+
+
+
+
+/* Cho người dùng nhập vào số bất kỳ: với đk như sau
+1. Nếu là số dương -> in ra nó
+2. Nếu là số âm -> bắt người dùng nhập lại
+*/
+
+let input;
+// Lưu ý: khởi tạo biến bên ngoài do.
+do {
+  input = Number(prompt("Mời người dùng nhập vào số nguyên dương"));
 }
-
+while (input < 0);
+console.log(input)
 
 
