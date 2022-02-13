@@ -54,6 +54,38 @@ B4: Nếu điều kiện sai -> Thoát vòng lặp
 
 */
 
-for (let i = 1; i <= 10; i = i + 1) {
-  console.log(i);
+// for (let i = 1; i <= 10; i = i + 1) {
+//   console.log(i);
+// }
+
+
+
+/*
+Nhập vào 1 số nguyên bất kỳ. In ra các số nguyên tố từ 1 -> n
+VD: 10: 2,3,5,7
+
+Với số nguyên tố là số chia hết cho 1 và chính nó. Bắt đầu từ số 2
+*/
+
+// Hàm nhập dữ liệu từ trình duyệt: promt
+let number = Number(prompt("Mời người dùng nhập vào số nguyên dương bất kỳ"));//10
+// ép kiểu cho biến number về kiểu dữ liệu Number:
+// number = Number(number)
+console.log("number: ", number);
+
+
+// vòng lặp tăng từ 2 -> number
+for (let i = 2; i <= number; i++) {
+
+
+  // vòng lặp kiểm tra số nguyên tố
+  let dem = 0;
+  for (let j = 1; j <= i; j++) {
+    if (i % j == 0) { dem++ }
+  }
+
+  if (dem == 2) { console.log(i); }
 }
+
+
+
