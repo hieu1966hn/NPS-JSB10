@@ -112,10 +112,49 @@ Với số nguyên tố là số chia hết cho 1 và chính nó. Bắt đầu t
 
 
 //// Duyệt mảng với vòng lặp for
-let arr = [1, 2, 3];
-for (let i = 0; i < arr.length; i++) {
-  console.log(arr[i]);
+// let arr = [1, 2, 3, 'hello'];
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+
+////// Đối tượng trong Javascript
+// let Nguoi = {
+//   name: "Nam",
+//   age: 17,
+//   cmnd: 123456789,
+//   address: "HaNoi"
+
+// }
+
+// console.log(Nguoi);
+// // In ra tuoi cua người
+// console.log(Nguoi.age);
+
+// // In ra dia chi cua người
+// console.log(Nguoi.address);
+
+// // In ra CMND cua người
+// console.log(Nguoi.cmnd);
+
+
+////VD: luu trữ form đăng ký đưới dạng đối tượng (object)
+let user = {
+  lastName: "Nguyen",
+  firstName: 'Hieu',
+  phone: "012345678",
+  password: "@Password",
+  birthday: [12, 2, 2022],
+  sex: "male",
 }
 
+// Lúc chưa thay đổi giới tính
+console.log("user: ", user);
 
+// Đã đi cập nhật lại giới tính
+user.sex = "female"
+console.log("user: ", user);
 
+/// Xóa thuộc tính sex
+delete user.sex;
+console.log("user: ", user);
