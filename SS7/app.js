@@ -1,10 +1,10 @@
 // Chữa bài 1 lab
-let fruits = [
-  ["grape", 5],
-  ["banana", 10],
-  ["watermelon", 3],
-  ["apple", 15],
-];
+// let fruits = [
+//   ["grape", 5],
+//   ["banana", 10],
+//   ["watermelon", 3],
+//   ["apple", 15],
+// ];
 
 // // C1: Vòng lặp for
 // for (let i = 0; i < fruits.length; i++) {
@@ -26,23 +26,47 @@ let fruits = [
 
 
 
-// Chữa bài 3
-let myDog = {
-  "name": "ngáo",
-  "legs": 4,
-  friends: ["everything!!"]
-}
+// // Chữa bài 3
+// let myDog = {
+//   "name": "ngáo",
+//   "legs": 4,
+//   friends: ["everything!!"]
+// }
 
-// Đổi tên => Husky
-myDog.name = 'Husky';
+// // Đổi tên => Husky
+// myDog.name = 'Husky';
 
-myDog.boss = "Hieu Nguyen"
+// myDog.boss = "Hieu Nguyen"
 
-// Thêm mới thuộc tính color vào myDog;
-myDog.color = 'brown'
+// // Thêm mới thuộc tính color vào myDog;
+// myDog.color = 'brown'
 
 
-// Xóa thuộc tính friends
-delete myDog.friends
+// // Xóa thuộc tính friends
+// delete myDog.friends
 
-console.log(myDog);
+// console.log(myDog);
+
+
+
+
+
+
+
+
+//// Code Mới SS7
+let arr = [];
+////// C,R,U,D
+/// C: Create: thêm phần tử vào trong mảng
+arr.push('hi', "Hello", "How are you")
+
+
+///// R: Read: lấy ra danh sách phần tử trong mảng
+console.log(arr.join(", "));
+// join: Dùng để tách các phần tử trong mảng thành chuỗi
+
+// U: Update phần tử trong mảng: (phải biết vị trí phần tử đó ở đâu)
+arr[2] = "am fine thank you, and you"
+
+// D: Delete phần tử trong mảng: (phải biết vị trí phần tử đó ở đâu)
+arr.splice(1, 1)
