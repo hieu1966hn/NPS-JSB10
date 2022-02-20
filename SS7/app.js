@@ -18,8 +18,31 @@ let fruits = [
 //   console.log(`Tên quả ${(fruits[index])[0]} với số lượng:${(fruits[index])[1]}`);
 // }
 
-// C3: Vòng lặp rút gọn for of
-for (let key of fruits) {
-  // console.log(key); // in ra gì? In ra giá trị của từng phần tử trong mảng
-  console.log(`Tên quả ${key[0]} với số lượng:${key[1]}`);
+// // C3: Vòng lặp rút gọn for of
+// for (let key of fruits) {
+//   // console.log(key); // in ra gì? In ra giá trị của từng phần tử trong mảng
+//   console.log(`Tên quả ${key[0]} với số lượng:${key[1]}`);
+// }
+
+
+
+// Chữa bài 3
+let myDog = {
+  "name": "ngáo",
+  "legs": 4,
+  friends: ["everything!!"]
 }
+
+// Đổi tên => Husky
+myDog.name = 'Husky';
+
+myDog.boss = "Hieu Nguyen"
+
+// Thêm mới thuộc tính color vào myDog;
+myDog.color = 'brown'
+
+
+// Xóa thuộc tính friends
+delete myDog.friends
+
+console.log(myDog);
