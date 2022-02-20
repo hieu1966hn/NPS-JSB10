@@ -90,7 +90,7 @@ Nếu nhập sai thì nhập lại.
 let menu = ['thit cho', 'rau xao', 'rau luoc'];
 let input;
 do {
-  input = prompt("Người dùng nhập vào c,r,u,d").trim().toLowerCase();
+  input = prompt("Người dùng nhập vào \n1. C\n2. R \n3. U \n4. D").trim().toLowerCase();
   if (input == "c") {
     let temp = prompt("Mời admin nhập món ăn muốn thêm");
     menu.push(temp)
