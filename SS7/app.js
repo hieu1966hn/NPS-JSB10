@@ -6,9 +6,14 @@ let fruits = [
   ["apple", 15],
 ];
 
-// C1: Vòng lặp for
-for (let i = 0; i < fruits.length; i++) {
-  console.log(`Tên quả ${(fruits[i])[0]} với số lượng:${(fruits[i])[1]}   `);
-  // truyền biến vào chuỗi: ``
+// // C1: Vòng lặp for
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(`Tên quả ${(fruits[i])[0]} với số lượng:${(fruits[i])[1]}   `);
+//   // truyền biến vào chuỗi: ``
+// }
 
+// C2: Vòng lặp rút gọn for in
+for (let index in fruits) {
+  // console.log(index);// in ra gì vị trí của từng phần tử mảng
+  console.log(`Tên quả ${(fruits[index])[0]} với số lượng:${(fruits[index])[1]}`);
 }
