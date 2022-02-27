@@ -72,24 +72,56 @@ Cú pháp khai báo hàm:
 
 
 /// VD hàm Greet
-function greet(name) {
-  console.log(`Hello ${name}`);
-}
+// function greet(name) {
+//   console.log(`Hello ${name}`);
+// }
 
-greet("Nguyễn Hiếu");
+// greet("Nguyễn Hiếu");
 
-/// Xây dựng hàm tìm số nhỏ nhất trong 2 số truyền vào;
-const min = function (a, b) {
-  if (a < b) {
-    return a;
-  }
-  else if (a == b) {
-    return "Không so sánh được"
+// /// Xây dựng hàm tìm số nhỏ nhất trong 2 số truyền vào;
+// const min = function (a, b) {
+//   if (a < b) {
+//     return a;
+//   }
+//   else if (a == b) {
+//     return "Không so sánh được"
+//   }
+//   else {
+//     return b;
+//   }
+// }
+
+
+// console.log(min(3, 3)); // 
+
+
+
+//////// Chữa bài xây dựng hàm kiểm tra năm nhuận
+/*
+Yêu cầu: Người dùng nhập vào 1 năm bất kỳ
+1. Kiểm tra năm đó có phải là năm nhuận hay không
+2. Nếu đúng là năm nhuận: return năm đó
+3. Nếu sai, không phải năm nhuận: return false
+
+Lưu ý: toán tử "&&" (và và) luôn tìm tới điều kiện trả về là false;
+Lưu ý: toán tử "||" (hoặc hoặc) luôn tìm tới điều kiện trả về là true;
+*/
+
+function leapYear(year) {
+
+  if (year % 4 == 0 && year % 100 != 0) {
+    return year + " là năm nhuận"
   }
   else {
-    return b;
+    return year + " là năm không nhuận"
   }
 }
 
+let input = Number(prompt("Người dùng nhập vào 1 năm bất kỳ"));
 
-console.log(min(3, 3)); // 
+// leapYear(input);
+console.log("leapYear(input): ", leapYear(input));
+
+
+console.log(2 < 3 && 4 < 5 && 5 > 6); // false
+console.log(2 > 3 || 4 > 5 || 5 < 6); // true
