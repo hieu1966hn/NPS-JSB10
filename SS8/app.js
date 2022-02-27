@@ -107,21 +107,21 @@ Lưu ý: toán tử "&&" (và và) luôn tìm tới điều kiện trả về l�
 Lưu ý: toán tử "||" (hoặc hoặc) luôn tìm tới điều kiện trả về là true;
 */
 
-function leapYear(year) {
+// function leapYear(year) {
 
-  if (year % 4 == 0 && year % 100 != 0) {
-    return year + " là năm nhuận"
-  }
-  else {
-    return year + " là năm không nhuận"
-  }
-}
+//   if (year % 4 == 0 && year % 100 != 0) {
+//     return year + " là năm nhuận"
+//   }
+//   else {
+//     return year + " là năm không nhuận"
+//   }
+// }
 
-let input = Number(prompt("Người dùng nhập vào 1 năm bất kỳ"));
+// let input = Number(prompt("Người dùng nhập vào 1 năm bất kỳ"));
 
-// leapYear(input);
-console.log("leapYear(input): ", leapYear(input));
+// // leapYear(input);
+// console.log("leapYear(input): ", leapYear(input));
 
 
-console.log(2 < 3 && 4 < 5 && 5 > 6); // false
-console.log(2 > 3 || 4 > 5 || 5 < 6); // true
+// console.log(2 < 3 && 4 < 5 && 5 > 6); // false
+// console.log(2 > 3 || 4 > 5 || 5 < 6); // true
