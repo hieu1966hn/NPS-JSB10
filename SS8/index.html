@@ -19,6 +19,9 @@
   <div class="div test">Đây là thẻ div có class = test</div>
   <p>Đây là thẻ p không có class</p>
 
+  <button onclick="tang()">Tăng</button>
+  <input id="input" type="text" value="0">
+  <button onclick="giam()">Giảm</button>
 
   <script>
     // đây là code Javascript
@@ -44,10 +47,22 @@
     console.log("allH1InHtml: ", allH1InHtml); // đây là một mảng
     /// Duyệt mảng, thay đổi tất cả backgroud của thẻ h1 thành màu ''
     for (let key of allH1InHtml) {
-      key.style.background = "pink"
+      key.style.background = "cyan"
     }
 
 
+    //// Áp dụng hàm vào DOM để xây dựng tính năng
+    // Xây dựng hàm tăng
+    const input = document.getElementById('input');
+    console.log("input: ", input.value);
+
+    function tang() {
+      input.value = Number(input.value) + 1;
+    }
+    // Xây dựng hàm giảm
+    function giam() {
+      input.value = Number(input.value) - 1;
+    }
 
   </script>
 
