@@ -15,11 +15,28 @@
   <h1 id="h1">Hello World</h1>
   <h1>Hello World</h1>
 
+  <p class="test">Đây là thẻ p có class = test</p>
+  <div class="div test">Đây là thẻ div có class = test</div>
+  <p>Đây là thẻ p không có class</p>
+
 
   <script>
     // đây là code Javascript
     const h1 = document.getElementById("h1");
+    console.log("h1: ", h1);
     h1.style.color = "orange"
+
+    /// Select thẻ với class
+    const test = document.getElementsByClassName("test");
+    console.log("test: ", test);// trả về dạng mảng
+
+    test[0].style.color = "blue"
+    test[1].style.color = "pink"
+
+    /// Thay đổi nội dung của thẻ p có class "test"
+    test[0].innerHTML = "Đây là thẻ p sau khi được thay đổi nội dung"
+    /// Thay đổi nội dung của thẻ div có clas "test" thành chứa 1 thẻ khác
+    test[1].innerHTML = `<b>Đây là thẻ "b" được thêm vào bên trong thẻ div có class = "test"</b>`
   </script>
 
 
