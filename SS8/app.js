@@ -53,21 +53,43 @@ Cú pháp khai báo hàm:
 
 
 //////// Hàm có trả về giá trị (có chữ "return"):
-function inRaSoTu1Den10(n) {
-  /// coding: in ra các số từ 1 -> 10
-  for (let i = 1; i <= 10; i++) {
-    console.log(i);
-  }
+// function inRaSoTu1Den10(n) {
+//   /// coding: in ra các số từ 1 -> 10
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+//   }
 
-  // in ra tham số ở đây
-  console.log(n); // 1000
-  return n;// 1000
-}
+//   // in ra tham số ở đây
+//   console.log(n); // 1000
+//   return n;// 1000
+// }
 
-// inRaSoTu1Den10(1000); // ???
-let giaTriHam = inRaSoTu1Den10(1000)
-console.log(giaTriHam);
+// // inRaSoTu1Den10(1000); // ???
+// let giaTriHam = inRaSoTu1Den10(1000)
+// console.log(giaTriHam);
 
 /// Tại sao phải cần return (trả về giá trị): Để Tận dụng lại kết quả hàm trả về cho code.
 
 
+/// VD hàm Greet
+function greet(name) {
+  console.log(`Hello ${name}`);
+}
+
+greet("Nguyễn Hiếu");
+
+/// Xây dựng hàm tìm số nhỏ nhất trong 2 số truyền vào;
+const min = function (a, b) {
+  if (a < b) {
+    return a;
+  }
+  else if (a == b) {
+    return "Không so sánh được"
+  }
+  else {
+    return b;
+  }
+}
+
+
+console.log(min(3, 3)); // 
