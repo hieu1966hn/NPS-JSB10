@@ -27,14 +27,47 @@ Cú pháp khai báo hàm:
 // inRaSoTu1Den10();
 
 /// Viết hàm In ra các số từ 1 -> 10; Cách 2
-const inRaSoTu1Den10 = function () {
+// const inRaSoTu1Den10 = function () {
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+//   }
+// }
+
+// // Gọi hàm
+// inRaSoTu1Den10();
+
+
+
+///// Hàm có tham số truyền vào: (áp dụng lại với hàm inRaSoTu1Den10)
+// function inRaSoTu1Den10(n) {
+//   /// coding: in ra các số từ 1 -> 10
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+//   }
+
+//   // in ra tham số ở đây
+//   console.log(n); // 1000
+// }
+
+// inRaSoTu1Den10(1000); // ???
+
+
+//////// Hàm có trả về giá trị (có chữ "return"):
+function inRaSoTu1Den10(n) {
+  /// coding: in ra các số từ 1 -> 10
   for (let i = 1; i <= 10; i++) {
     console.log(i);
   }
+
+  // in ra tham số ở đây
+  console.log(n); // 1000
+  return n;// 1000
 }
 
-// Gọi hàm
-inRaSoTu1Den10();
+// inRaSoTu1Den10(1000); // ???
+let giaTriHam = inRaSoTu1Den10(1000)
+console.log(giaTriHam);
 
+/// Tại sao phải cần return (trả về giá trị): Để Tận dụng lại kết quả hàm trả về cho code.
 
 
