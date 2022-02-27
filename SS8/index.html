@@ -37,6 +37,18 @@
     test[0].innerHTML = "Đây là thẻ p sau khi được thay đổi nội dung"
     /// Thay đổi nội dung của thẻ div có clas "test" thành chứa 1 thẻ khác
     test[1].innerHTML = `<b>Đây là thẻ "b" được thêm vào bên trong thẻ div có class = "test"</b>`
+
+
+    //// Select thẻ với TagName
+    const allH1InHtml = document.getElementsByTagName("h1");
+    console.log("allH1InHtml: ", allH1InHtml); // đây là một mảng
+    /// Duyệt mảng, thay đổi tất cả backgroud của thẻ h1 thành màu ''
+    for (let key of allH1InHtml) {
+      key.style.background = "pink"
+    }
+
+
+
   </script>
 
 
