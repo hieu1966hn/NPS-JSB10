@@ -72,6 +72,9 @@ Toán tử trong Javascript:
 // while (i <= 10);
 
 // VD: với for
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
-}
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+/// Mảng (danh sách)
+/// Đối tượng (Object)
