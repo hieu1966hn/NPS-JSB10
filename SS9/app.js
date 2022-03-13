@@ -40,3 +40,16 @@ Toán tử trong Javascript:
 
 
 */
+
+
+///// Câu điều kiện trong Javascript: if - (else if) - else
+let diem = -1;
+if (diem > 5) {
+  alert("Điểm lớn hơn 5")
+}
+else if (diem === 5) {
+  alert("Điểm = 5")
+}
+else {
+  alert("Điểm nhỏ hơn 5")
+}
