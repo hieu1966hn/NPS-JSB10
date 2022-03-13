@@ -78,3 +78,23 @@ Toán tử trong Javascript:
 
 /// Mảng (danh sách)
 /// Đối tượng (Object)
+
+
+//// Thao tác với form
+const formElement = document.getElementById("info");
+//                  Thẻ form
+
+formElement.addEventListener("submit", function (event) {
+  event.preventDefault();// hàm chặn sự kiện reload mặc định của trình duyệt
+
+  const data = {
+    firstName: formElement.firstName.value,
+    lastName: formElement.lastName.value,
+    gender: formElement.gender.value,
+    city: formElement.city.value,
+
+  }
+
+  console.log("data: ", data);
+
+})
