@@ -23,7 +23,7 @@
 
 
 /*
-Toán tử trong Javascript: 
+Toán tử trong Javascript:
 
 - Toán tử số học: +, -, *, /
 
@@ -36,20 +36,42 @@ Toán tử trong Javascript:
   VD: 1 == "1", 1 === "1"
   VD: "&&": console.log(2>1 && 3>1 && 10>1 && 2>3)
   VD: "||": console.log(1>2 || 3>4 || 6> 10 || 2>1 || 1 > 100);
-  
+
 
 
 */
 
 
 ///// Câu điều kiện trong Javascript: if - (else if) - else
-let diem = -1;
-if (diem > 5) {
-  alert("Điểm lớn hơn 5")
-}
-else if (diem === 5) {
-  alert("Điểm = 5")
-}
-else {
-  alert("Điểm nhỏ hơn 5")
+// let diem = -1;
+// if (diem > 5) {
+//   alert("Điểm lớn hơn 5")
+// }
+// else if (diem === 5) {
+//   alert("Điểm = 5")
+// }
+// else {
+//   alert("Điểm nhỏ hơn 5")
+// }
+
+
+//// Vòng lặp trong Javascript: While - (do - while) - for
+/// VD về while: in ra các số từ 1 -> 10
+// let i = 1;
+// while (i <= 10) {
+//   console.log(i);
+//   i = i + 1; // Sau mỗi lần lặp, i tăng 1 đơn vị
+// }
+
+// VD: với do while
+// let i = 1;
+// do {
+//   console.log(i);
+//   i = i + 1;
+// }
+// while (i <= 10);
+
+// VD: với for
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
 }
