@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+nav {
+  background-color: black;
+  padding: 10px 10px;
+  /* trên/dưới   trái/phải */
+
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+
+}
+
+nav div a {
+  margin-right: 10px;
+}
